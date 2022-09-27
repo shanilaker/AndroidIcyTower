@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/instruction"
+	>
+
+	<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTitle"
+            android:textSize="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="17dp"
+		    android:textStyle="bold|italic"
+	        android:textColor="#FFFF"
+	        android:text="Help your player to climb the tower
+             The Player Jumps according to the phone
+             
+		                                      For example, moving your phone to the right will cause the player to go right
+             
+		     When the clock is ringing the stones will go down faster
+                                   You get points by every stone you get on and in the clock's time you get more
+             
+		                  
+		           The game overs when you fall "
+	/>
+</LinearLayout>
